@@ -1,8 +1,8 @@
 {
-  "name": "react-javascript",
+  "name": "insight-reader",
   "version": "1.0.0",
   "type": "module",
-  "description": "React TypeScript on Replit, using Vite bundler",
+  "description": "A web-based e-reader application built with React and Firebase",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
