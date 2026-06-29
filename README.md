@@ -2,7 +2,7 @@
 
 A digital reading and knowledge-management platform — search a categorized library, track reading progress in real time, and capture personal notes ("insights") linked to every book you read.
 
-**Live Demo:** [insight-reader-khaki.vercel.app](https://insight-reader-khaki.vercel.app)
+**Live Demo:** [https://insight-reader1.vercel.app/](https://insight-reader-khaki.vercel.app)
 **Repo:** [github.com/Basanta444/Insight-Reader](https://github.com/Basanta444/Insight-Reader)
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
