@@ -1,18 +1,16 @@
 // src/firebase.js
-
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
-// ✅ Dual fallback: use Replit secret if available, otherwise fallback to public key
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyCWriSNvJcTwaVdVtGiCMi273w0AJf4qBs",
-  authDomain: "digital-library-b.firebaseapp.com",
-  projectId: "digital-library-b",
-  storageBucket: "digital-library-b.appspot.com",
-  messagingSenderId: "587099881192",
-  appId: "1:587099881192:web:e317fc9927f8e2044e535d",
-  measurementId: "G-LCHJ7SW6NZ",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID,
 };
 
 // ✅ Initialize Firebase app
